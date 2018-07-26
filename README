@@ -1,0 +1,7 @@
+DOWNLOAD THE MODEL:
+> python load.py
+
+LAUNCH THE API:
+> gunicorn --bind 0.0.0.0:5003 servImage:app
+
+Note: Zeppelin notebook used to test code included
